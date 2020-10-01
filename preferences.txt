@@ -1,0 +1,10 @@
+Renderer.spp 10
+Renderer.maxBounce 15
+Film.width 512
+Film.height 512
+Scene.obj data/armadillo.obj
+Scene.mtl data/armadillo.mtl
+Scene.scale 0.1
+Camera.eye 3.0 2.0 -5.0
+Camera.center -0.2 0.5 0.0
+Camera.fov 30.0

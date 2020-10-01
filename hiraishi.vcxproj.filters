@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Denoiser">
+      <UniqueIdentifier>{15ee425a-c9b9-4854-85da-c237ad0c850f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Denoiser">
+      <UniqueIdentifier>{f75abb52-47b5-401b-a11a-0a62b292e365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Renderer">
+      <UniqueIdentifier>{6998fecd-e80e-4cf9-912a-aeb482e1e6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Renderer">
+      <UniqueIdentifier>{d585b2a8-9112-44f8-bbec-428e16ca4d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Materials">
+      <UniqueIdentifier>{02c149e5-25e4-4df5-93f7-ebda06c6c4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Materials">
+      <UniqueIdentifier>{8bebc2c9-d91c-437a-b903-31843eb1e14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Accelerator">
+      <UniqueIdentifier>{ed4cba3d-dac5-4d4a-98dc-c9fe65d64c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Accelerator">
+      <UniqueIdentifier>{ca09eb20-c6a1-4290-a98a-88c83d4dbd15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Face.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Film.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ModelSet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ray.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sampler.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sphere.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Denoiser\Denoiser.cpp">
+      <Filter>ソース ファイル\Denoiser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Denoiser\Map.cpp">
+      <Filter>ソース ファイル\Denoiser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Denoiser\Filter.cpp">
+      <Filter>ソース ファイル\Denoiser</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\Renderer_NEE.cpp">
+      <Filter>ソース ファイル\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\Renderer_PT.cpp">
+      <Filter>ソース ファイル\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Materials\BSDF.cpp">
+      <Filter>ソース ファイル\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\Renderer_PT_Volume.cpp">
+      <Filter>ソース ファイル\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Accelerator\KdTree.cpp">
+      <Filter>ソース ファイル\Accelerator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\Renderer_OpenGL.cpp">
+      <Filter>ソース ファイル\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer\Renderer_SingleSpectrum_PT.cpp">
+      <Filter>ソース ファイル\Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Constant.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Face.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Film.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Intersect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ModelSet.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Random.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ray.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sampler.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sphere.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vec3.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Trigonometric.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Denoiser\Denoiser.h">
+      <Filter>ヘッダー ファイル\Denoiser</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Denoiser\Filter.h">
+      <Filter>ヘッダー ファイル\Denoiser</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Denoiser\Map.h">
+      <Filter>ヘッダー ファイル\Denoiser</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\Renderer_NEE.h">
+      <Filter>ヘッダー ファイル\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\Renderer_PT.h">
+      <Filter>ヘッダー ファイル\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\Renderer.h">
+      <Filter>ヘッダー ファイル\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Materials\BSDF.h">
+      <Filter>ヘッダー ファイル\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Materials\Material.h">
+      <Filter>ヘッダー ファイル\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spectrum.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathematics.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\Renderer_PT_Volume.h">
+      <Filter>ヘッダー ファイル\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Accelerator\KdTree.h">
+      <Filter>ヘッダー ファイル\Accelerator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BBox.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\Renderer_OpenGL.h">
+      <Filter>ヘッダー ファイル\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer\Renderer_SingleSpectrum_PT.h">
+      <Filter>ヘッダー ファイル\Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
